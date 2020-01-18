@@ -10,6 +10,7 @@ jobs:
       CODENAME: 'tissot'
       BUILD_LUNCH: 'omni_tissot-userdebug'
       TEST_BUILD: 'true'
+      EXTRA_CMD: 'rm -rf hardware/qcom/bootctrl'
     working_directory: /home/builder/pitchblack
     steps:
       - checkout
