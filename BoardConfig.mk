@@ -83,3 +83,5 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+
+AB_OTA_UPDATER := true
